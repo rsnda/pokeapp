@@ -1,8 +1,8 @@
 # Installation :
 
 ```
-git clone https://github.com/rsnda/derniercri.git
-cd derniercri
+git clone https://github.com/rsnda/pokeapp.git
+cd pokeapp
 yarn
 yarn start
 ```
@@ -11,9 +11,10 @@ yarn start
 
 Il s'agit d'un projet Expo, avec React Navigation.
 
-Sur la première page vous trouverez une liste de pokemon. Un clique sur le nom permet d'accédez a la page détails.
+Sur la première page vous trouverez une liste de pokemon. 
+Un clic sur le nom permet d'accédez a la page détails.
 
-J'utilise l'api PokeApi et utilise les endpoints suivant :
+J'utilise l'api PokeApi:
 
 `https://pokeapi.co/api/v2/pokemon?limit=100`
 
